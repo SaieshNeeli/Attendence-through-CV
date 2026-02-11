@@ -26,6 +26,7 @@ The system allows:
 💾 Persistent Storage of embeddings and attendance records
 
 🏗️ Project Architecture
+<pre>
 Project Root
 │
 ├── p3.py                  # Main FastAPI application
@@ -42,7 +43,7 @@ Project Root
 │   └── attendance_YYYY-MM-DD.csv
 │
 └── .gitignore
-
+</pre>
 🚀 Technologies & Libraries Used
 1️⃣ FastAPI
 
@@ -127,7 +128,7 @@ StudentDetails/studentdetails.csv
 System captures multiple embeddings (default = 20).
 
 This improves recognition accuracy.
-
+<pre>
 💾 How Data Is Stored
 embeddings.json
 {
@@ -139,7 +140,7 @@ embeddings.json
     [0.987, 0.654, ...]
   ]
 }
-
+</pre>
 
 Each student ID maps to a list of 512-dimensional vectors.
 
@@ -204,8 +205,9 @@ Uses a dictionary marked to track already recorded students.
 📊 How Face Matching Works
 
 Cosine Similarity Formula:
-
+<pre>
 Similarity = (A · B) / (||A|| ||B||)
+</pre>
 
 
 Value close to 1 → Same person
@@ -217,7 +219,7 @@ Threshold (default = 0.7):
 0.7 → Recognized
 
 < 0.7 → Not recognized
-
+<pre>
 🧠 Data Flow Summary
 Registration Flow
 Camera → MTCNN → FaceNet → Embedding → JSON Storage
@@ -232,7 +234,7 @@ Camera → MTCNN → FaceNet → Embedding
                       If Match → Mark Attendance
                                 ↓
                          Save to CSV File
-
+</pre>
 ⚙️ How To Run The Project
 1️⃣ Install Dependencies
 pip install -r requirements.txt
