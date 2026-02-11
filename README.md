@@ -278,3 +278,16 @@ Default threshold = 0.7
 Accuracy improves with more registration samples
 
 Real-time processing
+
+<img width="956" height="642" alt="image" src="https://github.com/user-attachments/assets/b7d31fc7-4906-4489-b690-3f639c4771ce" />
+<img width="1366" height="768" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/5ba3c049-9a57-40aa-9b1f-324d577b2096" />
+<pre>
+Response body
+Download
+{
+  "marked": {
+    "N200149": "saitama"
+  }
+}
+</pre>
+
