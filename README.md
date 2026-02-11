@@ -250,10 +250,15 @@ uvicorn p3:app --reload
 http://localhost:8000/docs
 
 📂 Data Persistence Strategy
+
 Data Type	Storage Format	Location
+
 Face Embeddings	JSON	FaceEmbeddings/
+
 Student Info	CSV	StudentDetails/
+
 Attendance	CSV	Attendance/
+
 🔐 Why JSON for Embeddings?
 
 Easy to serialize
