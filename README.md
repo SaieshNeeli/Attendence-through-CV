@@ -283,7 +283,7 @@ Real-time processing
 <img width="1366" height="768" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/5ba3c049-9a57-40aa-9b1f-324d577b2096" />
 <pre>
 Response body
-Download
+
 {
   "marked": {
     "N200149": "saitama"
