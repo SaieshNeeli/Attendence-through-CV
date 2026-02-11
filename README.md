@@ -236,13 +236,17 @@ Camera → MTCNN → FaceNet → Embedding
                          Save to CSV File
 </pre>
 ⚙️ How To Run The Project
+
 1️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 2️⃣ Start Server
+
 uvicorn p3:app --reload
 
 3️⃣ Open Swagger UI
+
 http://localhost:8000/docs
 
 📂 Data Persistence Strategy
